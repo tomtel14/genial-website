@@ -1,0 +1,11 @@
+.work-cont {
+  padding-top: 40px;
+}
+
+.work-gallery-cont {
+  padding-top: 45px;
+  padding-bottom: 200px;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-gap: 10% 5%;
+}

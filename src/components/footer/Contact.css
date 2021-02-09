@@ -1,0 +1,24 @@
+.contact-cont {
+  padding-top: 30px;
+}
+
+.contact-details-cont {
+  display: flex;
+  justify-content: space-between;
+  padding-bottom: 80px;
+}
+
+.enquiry-cont a {
+  display: flex;
+  padding: 3px 0;
+}
+
+.icon {
+  margin-right: 10px;
+}
+
+.credit {
+  text-align: center;
+  padding-bottom: 35px;
+  font-size: 0.8rem;
+}

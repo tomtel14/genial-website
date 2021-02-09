@@ -1,0 +1,19 @@
+.title-cont {
+  position: absolute;
+  bottom: 25vh;
+  color: #C74B02;
+  display: flex;
+  flex-direction: column;
+  cursor: default;
+  margin-left: 40px;
+}
+
+.title-cont h1 {
+  font-size: 11rem;
+  line-height: 0.9;
+}
+
+.title-cont h2 {
+  font-size: 2rem;
+  align-self: flex-end;
+}

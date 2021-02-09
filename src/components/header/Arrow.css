@@ -1,0 +1,19 @@
+.arrow {
+  position: absolute;
+  bottom: 20px;
+  left: 50%;
+  cursor: pointer;
+  animation: arrow 0.8s infinite alternate ease-in-out;
+}
+
+@keyframes arrow {
+  0% {
+        transform: translate(-50%, 0); 
+        opacity: 0.4;
+      }
+  100% {
+    transform: translate(-50%, 0.7em);
+    opacity: 0.9;
+  }    
+}
+
