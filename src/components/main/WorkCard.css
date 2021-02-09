@@ -1,7 +1,7 @@
 .grid figure {
 	position: relative;
 	overflow: hidden;
-	min-width: 320px;
+	min-width: 300px;
 	max-width: 400px;
 	max-height: 300px;
 	/* width: 48%; */
@@ -86,3 +86,23 @@ figcaption h5 {
 figcaption p {
   color: rgba(255, 255, 255, 0.753);
 }
+
+@media (max-width: 1300px) {
+  .grid figure {
+    max-width: 500px;
+    max-height: 400px;
+  }
+}
+
+@media (max-width: 730px) {
+  .grid figure {
+    max-width: 700px;
+    max-height: 600px;
+    overflow: visible;
+  }
+  figure.effect figcaption {
+    transform: translate3d(0,0%,0);
+  }
+} 
+
+
