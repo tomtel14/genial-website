@@ -9,3 +9,19 @@
   grid-template-columns: 1fr 1fr 1fr;
   grid-gap: 10% 5%;
 }
+
+@media (max-width: 1300px) {
+  .work-gallery-cont {
+    grid-template-columns: 1fr 1fr;
+    grid-gap: 5%;
+    padding-bottom: 250px;
+  }
+}
+
+@media (max-width: 730px) {
+  .work-gallery-cont {
+    grid-template-columns: 1fr;
+    grid-gap: 2%;
+    padding-bottom: 470px;
+  }
+} 
