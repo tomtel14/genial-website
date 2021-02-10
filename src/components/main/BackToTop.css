@@ -1,0 +1,28 @@
+.top {
+  position: fixed;
+  bottom: 20px;
+  right: 10px;
+  opacity: 0.6;
+  z-index: 200;
+  animation: up 1s infinite alternate ease-in-out;
+  cursor: pointer;
+}
+
+@keyframes up {
+  0% {
+        transform: translate(0, 0); 
+      }
+  100% {
+    transform: translate(0, 0.5em);
+  }    
+}
+
+@media (min-width: 1200px) {
+  .top {
+    width: 70px;
+    height: 70px;
+  }
+  .top:hover {
+    opacity: 0.8;
+  }
+}

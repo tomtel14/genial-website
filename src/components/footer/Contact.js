@@ -5,7 +5,7 @@ import { FaPhoneAlt, FaRegEnvelope } from 'react-icons/fa';
 function Contact() {
   return (
     <div className="app-cont">
-      <div className="contact-cont">
+      <div className="contact-cont" id="contact">
         <h3>Contact</h3>
         <div className="contact-details-cont">
           <div className="address-cont">
@@ -16,14 +16,12 @@ function Contact() {
           </div>
           <div className="enquiry-cont">
             <p>For initial enquiries ask for Jonathan Mears</p>
-            <a href="tel:02083617400">
-              <FaPhoneAlt size={20} className="phone icon" />
-              020 8361 7400
-            </a>
-            <a href="mailto:info@genial.co.uk">
-              <FaRegEnvelope size={20} className="email icon" />
-              info@genial.co.uk
-            </a>
+            <div className="phone-cont">
+              <a href="tel:02083617400"><FaPhoneAlt size={20} className="phone icon" />020 8361 7400</a>
+            </div>
+            <div className="email-cont">
+              <a href="mailto:info@genial.co.uk"><FaRegEnvelope size={20} className="email icon" />info@genial.co.uk</a>
+            </div>
           </div>
         </div>
       </div>

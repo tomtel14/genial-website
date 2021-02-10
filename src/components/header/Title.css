@@ -6,6 +6,7 @@
   flex-direction: column;
   cursor: default;
   margin-left: 40px;
+  z-index: 60;
 }
 
 .title-cont h1 {
@@ -39,6 +40,12 @@
   }
   .title-cont {
     margin-left: 0;
+  }
+}
+
+@media (max-width: 730px) {
+  .title-cont {
+    bottom: 70vh;
   }
 }
 

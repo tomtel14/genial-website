@@ -3,7 +3,7 @@ import './About.css';
 
 function About() {
   return (
-    <div className="about-cont">
+    <div className="about-cont" id="about">
       <h3>About</h3>
       <p>Genial have been developing websites for local businesses and non-profit organisations since 1998.</p>
       <br />

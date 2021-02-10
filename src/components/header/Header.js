@@ -1,10 +1,10 @@
 import React from 'react';
 import BackgroundImage from './BackgroundImage';
 
-function Header() {
+function Header({ mobileMode }) {
   return (
-    <header>
-      <BackgroundImage />
+    <header id="top">
+      <BackgroundImage mobileMode={mobileMode} />
     </header>
   );
 }

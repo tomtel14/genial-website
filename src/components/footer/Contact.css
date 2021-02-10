@@ -8,13 +8,21 @@
   padding-bottom: 80px;
 }
 
+.enquiry-cont p {
+  padding-bottom: 8px;
+}
+
 .enquiry-cont a {
+  padding: 4px 0;
+}
+
+.phone-cont, .email-cont {
   display: flex;
-  padding: 3px 0;
 }
 
 .icon {
-  margin-right: 10px;
+  margin-right: 12px;
+  vertical-align: bottom;
 }
 
 .credit {

@@ -5,7 +5,7 @@ import WorkCard from './WorkCard.js';
 
 function Work() {
   return (
-    <div className="work-cont">
+    <div className="work-cont" id="work">
       <h3>Work</h3>
       <p>At present we are not taking on any new clients.
 Nonetheless, below is a selection of websites Genial are still updating and/or maintaining:</p>

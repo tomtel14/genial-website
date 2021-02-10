@@ -6,7 +6,6 @@ import './Arrow.css';
 function Arrow() {
   return (
     <Link
-      activeClass="active"
       to="main"
       spy={true}
       smooth={true}

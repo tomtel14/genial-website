@@ -1,0 +1,26 @@
+nav {
+  position: absolute;
+  bottom: 10vh;
+  z-index: 60;
+  text-align: center;
+  left: 50%;
+  width: 70%;
+  transform: translateX(-50%);
+}
+
+nav li {
+  margin: 20px 0;
+  list-style: none;
+  border: 1px solid #C74B02;
+}
+
+nav a {
+  text-decoration: none;
+  display: block;
+  width: 100%;
+  padding: 8px 50px;
+}
+
+nav a:hover {
+  color: rgba(255, 255, 255, 0.753);
+}
