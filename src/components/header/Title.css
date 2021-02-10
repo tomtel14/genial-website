@@ -17,3 +17,39 @@
   font-size: 2rem;
   align-self: flex-end;
 }
+
+@media (max-width: 1210px) {
+  .title-cont h1 {
+    font-size: 8rem;
+  }
+  .title-cont h2 {
+    font-size: 1.7rem;
+  }
+  .title-cont {
+    margin-left: 0;
+  }
+}
+
+@media (max-width: 920px) {
+  .title-cont h1 {
+    font-size: 6rem;
+  }
+  .title-cont h2 {
+    font-size: 1.3rem;
+  }
+  .title-cont {
+    margin-left: 0;
+  }
+}
+
+@media (max-width: 650px) {
+  .title-cont h1 {
+    font-size: 5rem;
+  }
+  .title-cont h2 {
+    font-size: 1rem;
+  }
+  .title-cont {
+    margin-left: 0;
+  }
+}
