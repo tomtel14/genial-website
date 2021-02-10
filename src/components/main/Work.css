@@ -4,24 +4,32 @@
 
 .work-gallery-cont {
   padding-top: 45px;
-  padding-bottom: 200px;
+  padding-bottom: 120px; 
   display: grid;
   grid-template-columns: 1fr 1fr 1fr;
-  grid-gap: 10% 5%;
+  grid-gap: 50px;
 }
 
 @media (max-width: 1300px) {
   .work-gallery-cont {
     grid-template-columns: 1fr 1fr;
-    grid-gap: 5%;
-    padding-bottom: 250px;
+    grid-gap: 40px;
   }
 }
 
 @media (max-width: 730px) {
   .work-gallery-cont {
     grid-template-columns: 1fr;
-    grid-gap: 2%;
-    padding-bottom: 470px;
+    grid-gap: 30px;
   }
 } 
+
+@media (max-width: 660px) {
+  .work-cont {
+    padding-top: 10px;
+  }
+  .work-gallery-cont {
+    grid-template-columns: 1fr;
+    padding-bottom: 80px;
+  }
+}
