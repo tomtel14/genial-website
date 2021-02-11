@@ -11,9 +11,7 @@ function About() {
       one of our clients while still updating a small number of websites for some of our long established
 customers.</p>
       <br />
-      <p>Over the years our emphasis has been to develop websites with high quality images and carried out
-      all our own photography work. So much so, that we have decided to diverse into photography.
-Please visit <a href="https://www.genialphotography.co.uk" target='_blank' rel="noreferrer">www.genialphotography.co.uk</a> if you’re curious.</p>
+      <p>Over the years our emphasis has been on developing websites with high quality images which are procured through our own photography work and digital editing. As a result, we are now in the process of diversifying into photography. Please visit <a href="https://www.genialphotography.co.uk" target='_blank' rel="noreferrer">www.genialphotography.co.uk</a> for more information.</p>
       <br />
     </div>
   );

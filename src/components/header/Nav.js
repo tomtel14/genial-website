@@ -11,7 +11,7 @@ function Nav() {
             to="about"
             spy={true}
             smooth={true}
-            offset={-20}
+            offset={0}
             duration={500}
           >
             About

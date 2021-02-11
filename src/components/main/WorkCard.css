@@ -28,8 +28,10 @@
   background-image: linear-gradient(to bottom, rgba(199, 75, 2, 1), 40%, rgba(199, 75, 2, 0));
 }
 
-figure:hover .overlay {
-  opacity: 0.8;
+@media (min-width: 731px) {
+  figure:hover .overlay {
+    opacity: 0.8;
+  }
 }
 
 .grid figure figcaption {
@@ -102,5 +104,14 @@ figcaption p {
     transform: translate3d(0,0%,0);
   }
 } 
+
+@media (max-width: 600px) {
+  figure.effect figcaption {
+    padding: 0.4em 0.6em;
+  }
+  figcaption h5 {
+    padding-bottom: 3px;
+  }
+}
 
 

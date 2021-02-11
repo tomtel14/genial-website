@@ -1,10 +1,10 @@
 main {
-  background: linear-gradient(black, 95%, grey); 
+  background: linear-gradient(#000, 95%, grey); 
 }
 
 @media (max-width: 730px) {
   main {
-    background: linear-gradient(black, 95%, rgb(70, 70, 70)); 
+    background: linear-gradient(#000, 95%, rgb(70, 70, 70)); 
   }
 }
 

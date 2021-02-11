@@ -1,6 +1,6 @@
 nav {
   position: absolute;
-  bottom: 10vh;
+  bottom: 20vh;
   z-index: 60;
   text-align: center;
   left: 50%;
@@ -18,7 +18,7 @@ nav a {
   text-decoration: none;
   display: block;
   width: 100%;
-  padding: 8px 50px;
+  padding: 10px 50px;
   background-color: #000;
 }
 
