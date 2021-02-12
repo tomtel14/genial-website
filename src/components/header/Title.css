@@ -46,15 +46,18 @@
 @media (max-width: 730px) {
   .title-cont {
     bottom: 70vh;
-  }
-}
-
-@media (max-width: 650px) {
-  .title-cont h1 {
-    font-size: 5rem;
+    left: 50%;
+    transform: translateX(-50%);
   }
   .title-cont h2 {
-    font-size: 1rem;
+    align-self: center;
+  }
+  .title-cont h1 {
+    font-size: 5.5rem;
+  }
+  .title-cont h2 {
+    margin-top: 5px;
+    font-size: 1.2rem;
   }
   .title-cont {
     margin-left: 0;

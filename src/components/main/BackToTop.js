@@ -12,7 +12,7 @@ function BackToTop() {
       offset={0}
       duration={500}
     >
-      <IoIosArrowDropupCircle className="top" size={46} color="#C74B02" />
+      <IoIosArrowDropupCircle className="top" size={52} color="#C74B02" />
     </Link>
   );
 }
